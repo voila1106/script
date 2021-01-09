@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:ignore="HardcodedText">
+
+
+	<item
+		android:title="刷新"
+		android:id="@+id/refresh"/>
+
+	<item
+		android:title="日志"
+		android:id="@+id/log"/>
+
+	<item
+		android:title="运行"
+		app:showAsAction="always"
+		android:id="@+id/run"
+		android:icon="@android:drawable/ic_media_play"/>
+
+	<item
+		android:title="编辑"
+		android:id="@+id/edit"
+		android:icon="@android:drawable/ic_menu_edit"
+		app:showAsAction="ifRoom"/>
+
+
+</menu>
